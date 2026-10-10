@@ -40,4 +40,5 @@ Hosts can promote participants to moderators, demote them, and remove them. Host
 
 The backend is a persistent WebSocket service and needs a host that supports Socket.IO connections. Deploy the frontend as a static Vite site and the backend as a Node/Bun web service. Configure `VITE_BACKEND_URL` to the public backend URL and `CORS_ORIGIN` to the public frontend origin. The room store is in memory, so rooms are lost on restart and are not shared across multiple backend instances.
 
-Live URL: not deployed yet.
+Live URL: https://youtube-watch-party-kappa.vercel.app/
+
